@@ -3,6 +3,7 @@
 #' @description Manages choosing a numeric range.
 #' @docType class
 #' @examples
+#' library(shiny)
 #' # use non-exported function from teal.slice
 #' include_js_files <- getFromNamespace("include_js_files", "teal.slice")
 #' include_css_files <- getFromNamespace("include_css_files", "teal.slice")

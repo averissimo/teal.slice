@@ -20,6 +20,8 @@
 #' @examples
 #' # DataframeFilteredDataset example
 #' iris_fd <- init_filtered_dataset(iris, dataname = "iris")
+#'
+#' library(shiny)
 #' ui <- fluidPage(
 #'   iris_fd$ui_add(id = "add"),
 #'   iris_fd$ui_active("dataset"),
@@ -45,6 +47,8 @@
 #' library(MultiAssayExperiment)
 #' data(miniACC, package = "MultiAssayExperiment")
 #' MAE_fd <- init_filtered_dataset(miniACC, "MAE")
+#'
+#' library(shiny)
 #' ui <- fluidPage(
 #'   MAE_fd$ui_add(id = "add"),
 #'   MAE_fd$ui_active("dataset"),

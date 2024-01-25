@@ -81,6 +81,7 @@ eval_expr_with_msg <- function(expr, env) {
 #' toggle_icon <- getFromNamespace("toggle_icon", "teal.slice")
 #'
 #' library(shinyjs)
+#' library(shiny)
 #'
 #' ui <- fluidPage(
 #'   useShinyjs(),

@@ -24,6 +24,8 @@
 #' include_js_files <- getFromNamespace("include_js_files", "teal.slice")
 #' init_filter_state <- getFromNamespace("init_filter_state", "teal.slice")
 #'
+#' library(shiny)
+#'
 #' filter_state <- init_filter_state(
 #'   x = c(1:10, NA, Inf),
 #'   x_reactive = reactive(c(1:10, NA, Inf)),
@@ -33,7 +35,6 @@
 #'   ),
 #'   extract_type = "matrix"
 #' )
-#'
 #' isolate(filter_state$get_call())
 #'
 #' ui <- fluidPage(

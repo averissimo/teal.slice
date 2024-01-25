@@ -9,6 +9,8 @@
 #' include_js_files <- getFromNamespace("include_js_files", "teal.slice")
 #' DatetimeFilterState <- getFromNamespace("DatetimeFilterState", "teal.slice")
 #'
+#' library(shiny)
+#'
 #' filter_state <- DatetimeFilterState$new(
 #'   x = c(Sys.time() + seq(0, by = 3600, length.out = 10), NA),
 #'   slice = teal_slice(varname = "x", dataname = "data"),

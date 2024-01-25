@@ -23,7 +23,7 @@
 #'   )
 #' )
 #' dataset$set_filter_state(state = fs)
-#' isolate(dataset$get_filter_state())
+#' shiny::isolate(dataset$get_filter_state())
 #'
 MAEFilteredDataset <- R6::R6Class( # nolint
   classname = "MAEFilteredDataset",

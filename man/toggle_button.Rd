@@ -39,6 +39,7 @@ which may contain a child \verb{<i>} tag that specifies an icon to be displayed.
 toggle_icon <- getFromNamespace("toggle_icon", "teal.slice")
 
 library(shinyjs)
+library(shiny)
 
 ui <- fluidPage(
   useShinyjs(),
