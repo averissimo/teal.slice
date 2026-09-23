@@ -1,0 +1,8 @@
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy-cran-repo:
+    uses: r-wasm/actions/.github/workflows/deploy-cran-repo.yml@v3
+
